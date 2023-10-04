@@ -1,15 +1,15 @@
 # rubricaWPF
 -Lanciamo Visual Studio e creiamo un nuovo progetto.
 
--Filtriamo per WPF e andiamo avanti.
+-Usiamo WPF e andiamo avanti.
 
 -Digitiamo un nome cognome.nome.classe.nomeprogetto in questo caso filippini.nicolò.4i.rubrica .
 
--La versione 6  di .NET sarebbe meglio .Se avete la 7, potete usarla ma NO preview!!!  Solo versioni stabili per favore.
+-Usare la versione 6.0
 
 -Lanciare con la freccia verde e ottenere la form bianca.
 
--Individuare “Esplora soluzioni” .
+-Individuare esplora soluzioni .
 
 -pulsante destro sul progetto .
  e poi su “Aggiungi”
@@ -18,8 +18,17 @@
  -Chiamiamola Contatto
  
  -Partiamo con tre attributi privati.
-
-
+ ```c#
+namespace filippini.nicolò.4i.rubrica
+{
+  internal class Contatto
+  {
+    private int numero;
+    private string nome;
+    private string cognome;
+  }
+}
+```
 
 
 
